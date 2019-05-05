@@ -1,0 +1,2259 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300');
+
+@font-face {
+                          font-family: "material";
+                          src: url('../fonts/material.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "anticon";
+                          src: url('../fonts/anticon.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "Ionicons";
+                          src: url('../fonts/ionicons.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "simple-line-icons";
+                          src: url('../fonts/Simple-Line-Icons.ttf') format("truetype");
+                        }
+                        
+.productveg {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 1395px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.productveg .name {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 58px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .name .planet {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Nunito Sans", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 43.0px;
+  color               : rgba(247, 183, 178, 1.0);
+  text-align          : left;
+  line-height         : 58.0px;
+}
+.productveg .name .planet .span1 {
+  text-align          : justify;
+}
+.productveg .name .planet .span2 {
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : justify;
+}
+.productveg .name .group10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 36px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .name .group10 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .name .group10 .group3 .group31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .name .group10 .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 23px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .name .group10 .group6 .group61 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .name .group10 .group9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 24px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .name .group10 .group9 .group91 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .voicilesproduitsd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 166px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 189, 189, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.productveg .carrotproduct {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 230px;
+  height              : 125px;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .carrotproduct .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 125px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .carrotproduct .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 96px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .carrotproduct .carrots {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .carrotproduct .a350u20ac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .carrotproduct .a700u20ac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .carrotproduct .a450gpiece {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 52px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(165, 154, 154, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.productveg .carrotproduct .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : 29px;
+  width               : 83px;
+  position            : absolute;
+  margin              : 0;
+  left                : 208px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .carrotproduct .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .carrotproduct .label2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 218px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .carrotproduct .a2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 245px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.productveg .carrotproduct .star {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .carrotproduct .starcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 226px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .carrotproduct .starcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .carrotproduct .starcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 252px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .carrotproduct .starcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 266px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .saladproduct {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 360px;
+  height              : 125px;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .saladproduct .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 125px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .saladproduct .rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 96px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .saladproduct .salad {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .saladproduct .a300u20ac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 75px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .saladproduct .a600u20ac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 75px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .saladproduct .a450gpiececopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(165, 154, 154, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.productveg .saladproduct .rectanglecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45px;
+  height              : 21px;
+  box-sizing          : border-box;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 212px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(89, 171, 123, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .saladproduct .copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .saladproduct .copy1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 218px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .saladproduct .a2copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 245px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.productveg .saladproduct .starcopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .saladproduct .starcopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 226px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .saladproduct .starcopy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .saladproduct .starcopy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 252px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .saladproduct .starcopy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 266px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .avocadoproduct {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 491px;
+  height              : 125px;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .avocadoproduct .rectanglecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 125px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .avocadoproduct .rectanglecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 96px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .avocadoproduct .avocado {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .avocadoproduct .a450u20ac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .avocadoproduct .a2250u20ac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 236px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .avocadoproduct .a250gpiece {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 52px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(165, 154, 154, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.productveg .avocadoproduct .rectanglecopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : 21px;
+  box-sizing          : border-box;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 212px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(89, 171, 123, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .avocadoproduct .copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .avocadoproduct .copy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 218px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .avocadoproduct .a5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 245px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.productveg .avocadoproduct .starcopy15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .avocadoproduct .starcopy16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 226px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .avocadoproduct .starcopy17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .avocadoproduct .starcopy18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 252px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .avocadoproduct .starcopy19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 266px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .peachproduct {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 610px;
+  height              : 149px;
+  width               : 354px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .peachproduct .rectanglecopy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 149px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .peachproduct .rectanglecopy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 96px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .peachproduct .peach {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .peachproduct .a350u20ac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .peachproduct .a250gpiececopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(165, 154, 154, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.productveg .peachproduct .rectanglecopy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 21px;
+  box-sizing          : border-box;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 212px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(89, 171, 123, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .peachproduct .copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .peachproduct .copy31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 218px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .peachproduct .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 245px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.productveg .peachproduct .starcopy15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .peachproduct .starcopy16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 226px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .peachproduct .starcopy17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .peachproduct .starcopy18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 252px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .peachproduct .starcopy19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 266px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pumpkinproduct {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 741px;
+  height              : 149px;
+  width               : 354px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pumpkinproduct .rectanglecopy10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 149px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pumpkinproduct .rectanglecopy11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 96px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pumpkinproduct .pumpkin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 63px;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .pumpkinproduct .a450u20ac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : auto;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .pumpkinproduct .a450gpiece {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(165, 154, 154, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.productveg .pumpkinproduct .rectanglecopy12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 21px;
+  box-sizing          : border-box;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 212px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(89, 171, 123, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pumpkinproduct .copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .pumpkinproduct .copy41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 218px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .pumpkinproduct .a0copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : auto;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 245px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.productveg .pumpkinproduct .starcopy20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pumpkinproduct .starcopy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 226px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pumpkinproduct .starcopy22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pumpkinproduct .starcopy23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 252px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pumpkinproduct .starcopy24 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 266px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .grenadaproduct {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 872px;
+  height              : 149px;
+  width               : 354px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .grenadaproduct .rectanglecopy13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 149px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .grenadaproduct .rectanglecopy14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 96px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .grenadaproduct .grenada {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .grenadaproduct .a650u20ac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .grenadaproduct .a450gpiececopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(165, 154, 154, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.productveg .grenadaproduct .rectanglecopy15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 21px;
+  box-sizing          : border-box;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 212px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(89, 171, 123, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .grenadaproduct .copy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .grenadaproduct .copy51 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 218px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .grenadaproduct .a0copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 245px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.productveg .grenadaproduct .starcopy25 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .grenadaproduct .starcopy26 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 226px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .grenadaproduct .starcopy27 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .grenadaproduct .starcopy28 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 252px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .grenadaproduct .starcopy29 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 266px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .berryproduct {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1002px;
+  height              : 149px;
+  width               : 354px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .berryproduct .rectanglecopy16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 149px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .berryproduct .rectanglecopy17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 96px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .berryproduct .berry {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .berryproduct .a550u20ac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .berryproduct .a450gpiececopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(165, 154, 154, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.productveg .berryproduct .rectanglecopy18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 21px;
+  box-sizing          : border-box;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 212px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(89, 171, 123, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .berryproduct .copy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .berryproduct .copy61 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 218px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .berryproduct .a0copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 245px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.productveg .berryproduct .starcopy30 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .berryproduct .starcopy31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 226px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .berryproduct .starcopy32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .berryproduct .starcopy33 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 252px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .berryproduct .starcopy34 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 266px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pearproduct {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1133px;
+  height              : 149px;
+  width               : 354px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pearproduct .rectanglecopy19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 149px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pearproduct .rectanglecopy20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 96px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pearproduct .pear {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .pearproduct .a250u20ac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .pearproduct .a450gpiececopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(165, 154, 154, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.productveg .pearproduct .rectanglecopy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 21px;
+  box-sizing          : border-box;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 212px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(89, 171, 123, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pearproduct .copy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .pearproduct .copy71 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 218px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .pearproduct .a0copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 245px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.productveg .pearproduct .starcopy35 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pearproduct .starcopy36 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 226px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pearproduct .starcopy37 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pearproduct .starcopy38 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 252px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .pearproduct .starcopy39 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 266px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .search {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 87px;
+  height              : 72px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .search .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 72px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .search .searchmaterial {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : auto;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "material", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(204, 188, 188, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.productveg .search .line4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 17px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 299px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .search .ue633 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : auto;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 276px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "anticon", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(204, 189, 189, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.productveg .search .fruitsvegetables {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : auto;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(204, 189, 189, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.productveg .search .ionandroidoptionsionicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : auto;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 311px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Ionicons", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(204, 189, 189, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productveg .tabbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1346px;
+  height              : 49px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .tabbar .rectangle {
+  background-color    : rgba(247, 247, 247, 1.0);
+  top                 : 0px;
+  height              : 49px;
+  box-sizing          : border-box;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .tabbar .shoppingcartanticon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 127px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "anticon", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productveg .tabbar .ue02c {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 225px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "simple-line-icons", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.productveg .tabbar .useraddanticon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "anticon", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.productveg .tabbar .homeanticon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "anticon", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.productveg .tabbar .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 150px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productveg .seemore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1295px;
+  height              : auto;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 157px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(204, 189, 189, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
