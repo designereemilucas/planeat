@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300');
+
+@font-face {
+                          font-family: "HelveticaNeueCE-Thin";
+                          src: url('../fonts/HLCT__.TTF') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "anticon";
+                          src: url('../fonts/anticon.ttf') format("truetype");
+                        }
+                        
+.signin {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 667px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.signin .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 97px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .title .planet {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Nunito Sans", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 43.0px;
+  color               : rgba(247, 183, 178, 1.0);
+  text-align          : left;
+  line-height         : 58.0px;
+}
+.signin .title .planet .span1 {
+  text-align          : justify;
+}
+.signin .title .planet .span2 {
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : justify;
+}
+.signin .title .group10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 36px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .title .group10 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .title .group10 .group3 .group31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .title .group10 .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 23px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .title .group10 .group6 .group61 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .title .group10 .group9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 24px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .title .group10 .group9 .group91 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .title .a253plantoeatproper {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 75px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeueCE-Thin", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.34px;
+  line-height         : 22.0px;
+}
+.signin .name {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 183px;
+  height              : 92px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .name .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 81px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .name .name1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.signin .name .useranticon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : auto;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 308px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "anticon", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.signin .email {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 282px;
+  height              : 92px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .email .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 81px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .email .email1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.signin .email .inboxanticon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41px;
+  height              : auto;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 308px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "anticon", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.signin .password {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 381px;
+  height              : 93px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .password .rectanglecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 81px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .password .password1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.signin .password .lockanticon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 308px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "anticon", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.signin .btnvalid {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 493px;
+  height              : 81px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.signin .btnvalid .rectanglecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.signin .btnvalid .signin1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : auto;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.signin .youalreadyhavean {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 594px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Light", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(247, 183, 178, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.signin .youalreadyhavean .span1 {
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.signin .youalreadyhavean .span2 {
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  text-align          : justify;
+  line-height         : 17.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
