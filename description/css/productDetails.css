@@ -1,0 +1,926 @@
+
+@font-face {
+                          font-family: "Ionicons";
+                          src: url('../fonts/ionicons.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "anticon";
+                          src: url('../fonts/anticon.ttf') format("truetype");
+                        }
+                        
+.productdetails {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 1313px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.productdetails .rating {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 13px;
+  width               : 74px;
+  position            : absolute;
+  margin              : 0;
+  left                : 254px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .rating .star {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .rating .starcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .rating .starcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .rating .starcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .rating .starcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .photos {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 90px;
+  height              : 269px;
+  width               : 644px;
+  position            : absolute;
+  margin              : 0;
+  left                : -306px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .photos .photo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 269px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 344px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .photos .photo2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 269px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .name {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 51px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.productdetails .ourfarmers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 780px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.productdetails .recycle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1134px;
+  height              : 160px;
+  width               : 308px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .recycle .recycle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.productdetails .recycle .loremipsumdolorsicopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : auto;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(190, 181, 181, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productdetails .recycle .recycletip {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 115px;
+  height              : 45px;
+  width               : 174px;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .recycle .recycletip .or {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(190, 181, 181, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productdetails .recycle .recycletip .blackbin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : auto;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(190, 181, 181, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.productdetails .recycle .recycletip .compost {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : auto;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 8.0px;
+  color               : rgba(190, 181, 181, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.productdetails .recycle .recycletip .group10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 25px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .recycle .recycletip .group10 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .recycle .recycletip .group10 .group3 .group31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .recycle .recycletip .group10 .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 16px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .recycle .recycletip .group10 .group6 .group61 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .recycle .recycletip .group10 .group9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 17px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .recycle .recycletip .group10 .group9 .group91 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .recycle .recycletip .ioniostrashoutlineionicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Ionicons", Helvetica, Arial, serif;
+  font-size           : 35.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 38.0px;
+}
+.productdetails .recycle .recycletip .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 10px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .recycle .recycletip .ionsocialdropboxionicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 142px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Ionicons", Helvetica, Arial, serif;
+  font-size           : 35.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 38.0px;
+}
+.productdetails .description {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 395px;
+  height              : auto;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(206, 191, 191, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productdetails .available {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 558px;
+  height              : 34px;
+  width               : 289px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .available .availableatleclerc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(206, 191, 191, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productdetails .available .availableatleclerc .span1 {
+  text-align          : justify;
+}
+.productdetails .available .availableatleclerc .span2 {
+  color               : rgba(89, 170, 123, 1.0);
+  text-align          : justify;
+}
+.productdetails .available .availableatleclerc .span3 {
+  text-align          : justify;
+}
+.productdetails .available .availableatleclerc .span4 {
+  color               : rgba(89, 170, 123, 1.0);
+  text-align          : justify;
+}
+.productdetails .available .availableatleclerc .span5 {
+  text-align          : justify;
+}
+.productdetails .price {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 615px;
+  height              : 18px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .price .price350u20ac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.productdetails .quality {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 637px;
+  height              : 18px;
+  width               : 234px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .quality .quality95ecore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.productdetails .basketcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 764px;
+  height              : 18px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .back {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "anticon", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(247, 183, 178, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.productdetails .swipe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 371px;
+  height              : 9px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 174px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .swipe .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .swipe .ovalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .loremipsumdolorsi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 829px;
+  height              : auto;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(190, 181, 181, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productdetails .farmers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 915px;
+  height              : 180px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .farmers .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 180px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  object-fit          : cover;
+}
+.productdetails .farmers .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 180px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 117px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  object-fit          : cover;
+}
+.productdetails .farmers .rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 180px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  object-fit          : cover;
+}
+.productdetails .farmers .eve {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 158px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 218, 216, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.productdetails .farmers .luc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 158px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 218, 216, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.productdetails .farmers .jon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 158px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 243px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 218, 216, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.productdetails .validatebtn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 666px;
+  height              : 81px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .validatebtn .rectanglecopy12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .validatebtn .addtomybasket {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 121px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.productdetails .quantity {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 600px;
+  height              : 40px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 263px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .quantity .rectanglecopy15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 30px;
+  box-sizing          : border-box;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(89, 171, 123, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.productdetails .quantity .copy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 76px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 27.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 33.0px;
+}
+.productdetails .quantity .copy51 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 35.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 41.0px;
+}
+.productdetails .quantity .a0copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(89, 171, 123, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
